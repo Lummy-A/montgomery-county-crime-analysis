@@ -31,16 +31,26 @@ The analysis addresses ten key research questions:
 - Property crimes constitute 45.7% of incidents
 - Crimes against society represent 22.5% of incidents
 - Crimes against persons account for 9.9% of incidents
+  
 
 ### Temporal Patterns
 - Crimes peak late at night, especially on Fridays and Saturdays
 - Notable spikes occur around 3-5 AM and 12-1 PM
 - Crimes against persons are significantly higher on weekends
 
+  
+ ![Crime by Time of Day](Crime_distribution_hour.png)
+*Distribution of crimes across different hours of the day*
+
 ### Yearly Variations
 - Crime rates fluctuated significantly over the study period
 - 2020 saw a decline in crime, likely due to pandemic restrictions
 - 2021 showed an increase as restrictions eased
+
+  
+  ![Crime Trends Over Years](Crime_trend.png)
+  *Annual crime trends showing fluctuations between 2018-2022*
+  ![Crime Trends Over Years](Crime_type_trend.png)
 
 ### Data Insights
 - Montgomery County Police Department (MCPD) is the most frequently recorded agency
@@ -51,17 +61,8 @@ The analysis addresses ten key research questions:
 ## Key Visualizations
 The repository includes various visualizations:
 
-### Crime Trends Over Time
-![Crime Trends Over Years](images/crime_trends.png)
-*Annual crime trends showing fluctuations between 2018-2022*
-
 ### Geographic Distribution
-![Crime Distribution by District](images/district_distribution.png)
-*Heatmap showing crime density across different police districts*
-
-### Temporal Analysis
-![Crime by Time of Day](images/time_of_day.png)
-*Distribution of crimes across different hours of the day*
+![Crime Distribution by Region](Crime_distribution_region.png)
 
 ## Tools & Technologies
 - Data analysis: Python (pandas, numpy)
@@ -71,10 +72,7 @@ The repository includes various visualizations:
 
 
 ## Further Resources
-- [Full Jupyter Notebook](https://drive.google.com/file/d/1LzOqFdPq6nb-V8dPoDCgh4wILfBIX3Uv/view?usp=drive_link)
-- [Interactive Heatmap](https://drive.google.com/file/d/1fsEzN4AeQNMui1H34KZhx0hLlC8PE9CP/view?usp=drive_link)
-- [Original Dataset](https://drive.google.com/file/d/15MjxNnmjOx5bVMM0oAJibaGQD4vIxaPm/view?usp=drive_link)
-
+  Checkout the python file for the detailed analysis
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
